@@ -41,7 +41,7 @@
 &kp TAB    &kp Q           &kp W           &kp E        &kp R             &kp T   &kp LA(LEFT_SHIFT)                                                 &kp LC(V)  &kp Y   &kp U              &kp I        &kp O           &kp P                    &kp BSLH
 &kp ESC    &hm LEFT_GUI A  &hm LEFT_ALT S  &hm LCTRL D  &hm LEFT_SHIFT F  &kp G   &kp LC(Z)           &kp LCTRL  &kp LALT      &kp LGUI   &kp RCTRL  &kp LC(C)  &kp H   &hm RIGHT_SHIFT J  &hm RCTRL K  &hm LEFT_ALT L  &hm RIGHT_GUI SEMICOLON  &kp SQT
 &kp LSHFT  &kp Z           &kp X           &kp C        &kp V             &kp B                                  &kp HOME      &kp PG_UP                        &kp N   &kp M              &kp COMMA    &kp DOT         &kp FSLH                 &kp RSHFT
-&mo 2      &kp GRAVE       &none           &kp LEFT     &kp RIGHT                 &kp BSPC            &kp DEL    &kp END       &kp PG_DN  &kp ENTER  &kp SPACE          &kp UP             &kp DOWN     &kp LBKT        &kp RBKT                 &mo 2
+&mo 2      &kp GRAVE       &mo 4           &kp LEFT     &kp RIGHT                 &kp BSPC            &kp DEL    &kp END       &kp PG_DN  &kp ENTER  &kp SPACE          &kp UP             &kp DOWN     &kp LBKT        &kp RBKT                 &mo 2
             >;
         };
 
@@ -73,6 +73,18 @@
 &none  &none         &none         &none         &none         &none                             &none      &none                                           &none  &none       &none       &none  &none  &none
 &none  &none         &none         &none         &none                       &none        &none  &none      &none       &bl BL_TOG  &rgb_ug RGB_TOG                &bl BL_INC  &bl BL_DEC  &none  &none  &none
             >;
+        };
+
+        layer_rm {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans  &trans  &trans                                      &trans  &trans    &trans            &trans             &trans           &trans   &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans                                      &trans  &trans    &kp PAGE_UP       &kp UP_ARROW       &kp PAGE_DOWN    &trans   &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &kp HOME  &kp LEFT_ARROW    &kp DOWN_ARROW     &kp RIGHT_ARROW  &kp END  &trans
+&trans  &trans  &trans  &trans  &trans  &trans                  &trans      &trans                  &trans    &kp LEFT_BRACE    &kp RIGHT_BRACE    &trans           &trans   &trans
+&trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans      &trans  &trans  &trans            &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &trans           &trans   &trans
+            >;
+
+            label = "Navigation and extra symbols";
         };
     };
 };
