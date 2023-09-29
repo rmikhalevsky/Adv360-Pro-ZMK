@@ -32,6 +32,24 @@
         };
     };
 
+    combos {
+        compatible = "zmk,combos";
+
+        Autoformat {
+            bindings = <&Autoformat>;
+            key-positions = <34 39>;
+        };
+    };
+
+    macros {
+        Autoformat: Autoformat {
+            compatible = "zmk,behavior-macro";
+            label = "AUTOFORMAT";
+            #binding-cells = <0>;
+            bindings = <&kp LC(K) &kp D>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
