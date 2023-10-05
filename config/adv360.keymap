@@ -25,7 +25,7 @@
             #binding-cells = <2>;
             tapping-term-ms = <200>;
             quick_tap_ms = <175>;
-            flavor = "tap-preferred";
+            flavor = "balanced";
             bindings = <&kp>, <&kp>;
         };
     };
@@ -93,7 +93,7 @@
 
         layer_rm {
             bindings = <
-&trans  &kp F1  &kp F2  &kp F3            &kp F4          &kp F5  &trans                                      &trans  &kp F6    &kp F7            &kp F8             &kp F9           &trans   &kp F12
+&trans  &kp F1  &kp F2  &kp F3            &kp F4          &kp F5  &trans                                      &trans  &kp F6    &kp F7            &kp F8             &kp F9           &kp F10  &kp F12
 &trans  &trans  &trans  &trans            &trans          &trans  &trans                                      &trans  &trans    &kp PAGE_UP       &kp UP_ARROW       &kp PAGE_DOWN    &trans   &trans
 &trans  &trans  &trans  &trans            &trans          &trans  &trans  &trans  &trans      &trans  &trans  &trans  &kp HOME  &kp LEFT_ARROW    &kp DOWN_ARROW     &kp RIGHT_ARROW  &kp END  &trans
 &trans  &trans  &trans  &trans            &trans          &trans                  &trans      &trans                  &trans    &kp LEFT_BRACE    &kp RIGHT_BRACE    &trans           &trans   &trans
