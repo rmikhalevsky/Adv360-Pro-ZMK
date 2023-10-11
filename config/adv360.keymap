@@ -37,6 +37,16 @@
             bindings = <&Autoformat>;
             key-positions = <34 39>;
         };
+
+        copy-cut {
+            bindings = <&hm LC(X) LC(C)>;
+            key-positions = <49 48>;
+        };
+
+        paste {
+            bindings = <&kp LC(V)>;
+            key-positions = <50 49>;
+        };
     };
 
     macros {
