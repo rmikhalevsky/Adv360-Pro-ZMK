@@ -47,6 +47,11 @@
             bindings = <&kp LC(V)>;
             key-positions = <50 49>;
         };
+
+        language {
+            bindings = <&kp LA(LEFT_SHIFT)>;
+            key-positions = <55 56>;
+        };
     };
 
     macros {
