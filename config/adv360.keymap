@@ -68,11 +68,11 @@
 
         default_layer {
             bindings = <
-&kp EQUAL  &kp N1          &kp N2          &kp N3       &kp N4            &kp N5  &tog 1                                                          &mo 3               &kp N6  &kp N7             &kp N8       &kp N9          &kp N0                   &kp MINUS
-&kp TAB    &kp Q           &kp W           &kp E        &kp R             &kp T   &kp LA(TAB)                                                     &kp K_CONTEXT_MENU  &kp Y   &kp U              &kp I        &kp O           &kp P                    &kp BSLH
-&kp ESC    &hm LEFT_GUI A  &hm LEFT_ALT S  &hm LCTRL D  &hm LEFT_SHIFT F  &kp G   &kp LC(Z)    &kp LEFT_ALT  &kp LCTRL      &kp LGUI   &kp LALT   &kp LC(Y)           &kp H   &hm RIGHT_SHIFT J  &hm RCTRL K  &hm LEFT_ALT L  &hm RIGHT_GUI SEMICOLON  &kp SQT
-&kp LSHFT  &kp Z           &kp X           &kp C        &kp V             &kp B                              &kp HOME       &kp PG_UP                                 &kp N   &kp M              &kp COMMA    &kp DOT         &kp FSLH                 &kp RSHFT
-&mo 2      &kp GRAVE       &mo 4           &kp LEFT     &kp RIGHT                 &kp BSPC     &kp DEL       &kp END        &kp PG_DN  &kp ENTER  &kp SPACE                   &kp UP             &kp DOWN     &kp LBKT        &kp RBKT                 &mo 2
+&kp EQUAL  &kp N1          &kp N2          &kp N3       &kp N4            &kp N5  &tog 1                                                                &mo 3               &kp N6  &kp N7             &kp N8       &kp N9          &kp N0                   &kp MINUS
+&kp TAB    &kp Q           &kp W           &kp E        &kp R             &kp T   &kp K_APPLICATION                                                     &kp K_CONTEXT_MENU  &kp Y   &kp U              &kp I        &kp O           &kp P                    &kp BSLH
+&kp ESC    &hm LEFT_GUI A  &hm LEFT_ALT S  &hm LCTRL D  &hm LEFT_SHIFT F  &kp G   &kp LC(Z)          &kp LEFT_ALT  &kp LCTRL      &kp LGUI   &kp LALT   &kp LC(Y)           &kp H   &hm RIGHT_SHIFT J  &hm RCTRL K  &hm LEFT_ALT L  &hm RIGHT_GUI SEMICOLON  &kp SQT
+&kp LSHFT  &kp Z           &kp X           &kp C        &kp V             &kp B                                    &kp HOME       &kp PG_UP                                 &kp N   &kp M              &kp COMMA    &kp DOT         &kp FSLH                 &kp RSHFT
+&mo 2      &kp GRAVE       &mo 4           &kp LEFT     &kp RIGHT                 &kp BSPC           &kp DEL       &kp END        &kp PG_DN  &kp ENTER  &kp SPACE                   &kp UP             &kp DOWN     &kp LBKT        &kp RBKT                 &mo 2
             >;
         };
 
