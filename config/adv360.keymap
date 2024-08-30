@@ -39,7 +39,7 @@
         };
 
         copy-cut {
-            bindings = <&hm LC(X) LG(C)>;
+            bindings = <&hm LG(X) LG(C)>;
             key-positions = <49 48>;
         };
 
